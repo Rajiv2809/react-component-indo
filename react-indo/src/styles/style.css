@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1449480881392-716d0ea24a47?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact-app {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-item__image img {
+    width: 64px;
+    border-radius: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    text-align: center;
+
+}
+
+.right h1 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+
+}
+.right h2{
+    margin-bottom: 1rem;
+}
+.contact-input{
+    display: flex;
+    flex-direction: column;
+}
+.contact-input input{
+    margin: 1rem 20rem;
+    padding: 8px;
+    background-color: rgb(0, 0, 0, 0.2);
+    border: none;
+    border-bottom:1px solid black ;
+    border-radius: 3px;
+    color: white;
+}
+.contact-input input:focus{
+    outline: none;
+    color: white;
+}
+.contact-input input::placeholder{
+    color: white;
+
+}
+
+.contact-input button{
+    padding: 8px 3rem;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.left h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 24px 15rem;
+    background-color: rgb(0, 0, 0, 0.3);
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 10px 10px black;
+    justify-content: space-around;
+
+    color: white;
+}
+.contact-item__delete{
+    padding: 15px 18px ;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(121, 30, 30);
+    color: white;
+}
